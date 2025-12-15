@@ -1,16 +1,11 @@
-import { Canvas, useFrame, useThree } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 import { Environment, OrbitControls } from "@react-three/drei";
-import { Suspense, use, useEffect, useRef } from "react";
+import { Suspense } from "react";
 import { ShirtModel } from "./shirt-modal";
 import {
-  Color,
   SRGBColorSpace,
-  ACESFilmicToneMapping,
-  NoToneMapping,
   LinearToneMapping,
 } from "three";
-import { Model } from "./roundmesh";
-import ModelLoader from "./loader";
 
 
 export default function ShirtCanvas({ selectedSleeve, selectedFabric }: any) {

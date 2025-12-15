@@ -27,7 +27,7 @@ export function ShirtModel({
 
   
 
-  const FABRIC_MAP = {
+  const FABRIC_MAP:any = {
     cotton_white: "/images/fabric/7.jpg",
     cotton_blue: "/images/fabric/454515 (1).jpg",
     linen_beige: "/images/fabric/fabric2.jpg",
@@ -40,7 +40,7 @@ export function ShirtModel({
 
   console.log("selectedSleeve", selectedSleeve);
 
-  const SLEEVE_RULES = {
+  const SLEEVE_RULES:any = {
     long_sleeve: ["longSleeve", "cuff", "wristband"],
     long_sleeve_roll_up: ["longSleeveRollUp","Cuff_roll_sleeve"],
     short_sleeve: ["shortSleeve"], // no cuff
