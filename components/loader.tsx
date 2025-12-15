@@ -23,8 +23,8 @@ function ModelLoader() {
         }}
       >
         <div>
-          <p className="mb-2 text-lg">Loading models…</p>
-          <p>{progress.toFixed(0)}%</p>
+          <p className="mb-2 text-lg">Loading shirt models…</p>
+          {/* <p>{progress.toFixed(0)}%</p> */}
         </div>
       </div>
     </Html>

@@ -6,6 +6,7 @@ import {
   SRGBColorSpace,
   LinearToneMapping,
 } from "three";
+import ModelLoader from "./loader";
 
 
 export default function ShirtCanvas({ selectedSleeve, selectedFabric }: any) {
@@ -26,7 +27,7 @@ export default function ShirtCanvas({ selectedSleeve, selectedFabric }: any) {
       <ambientLight intensity={1} />
       <directionalLight position={[3, 5, 2]} intensity={0.8} castShadow />
       <directionalLight position={[-3, 3, -2]} intensity={0.4} />
-      <Suspense fallback={null}>
+      <Suspense fallback={<ModelLoader />}>
           <ShirtModel
             selectedFabric={selectedFabric}
             selectedSleeve={selectedSleeve}

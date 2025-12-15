@@ -3,16 +3,18 @@
 import { useState } from "react";
 import { AccordionItem } from "./accordian-item";
 import ShirtCanvas from "./shirt-canvas";
-import { GlobalModelLoader } from "./loader";
+// import { GlobalModelLoader } from "./loader";
 
 export default function ShirtDesign() {
   const [openSection, setOpenSection] = useState<"fabric" | "sleeve" | null>("fabric");
   const [selectedFabric, setSelectedFabric] = useState<string>("cotton_white");
   const [selectedCollar, setSelectedCollar] = useState<string>("spread");
   const [selectedSleeve, setSelectedSleeve] = useState<string>("long_sleeve");
+
+
   return (
     <>
-    <GlobalModelLoader />
+    {/* <GlobalModelLoader /> */}
     
     <div className="h-screen flex ">
       {/* Sidebar */}
