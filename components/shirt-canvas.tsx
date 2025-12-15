@@ -13,9 +13,9 @@ export default function ShirtCanvas({ selectedSleeve, selectedFabric }: any) {
   return (
     <>
     <Canvas
+    className="w-full h-full touch-none"
       shadows
       camera={{ position: [3, 2, 5], fov: 45 }}
-      className="w-full h-full"
       gl={{ antialias: true }}
       onCreated={(state) => {
         state.gl.outputColorSpace = SRGBColorSpace;
