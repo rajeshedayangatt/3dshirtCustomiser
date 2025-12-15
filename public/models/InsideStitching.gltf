@@ -1,0 +1,219 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.8.19",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Cube.029",
+      "translation": [
+        0,
+        0.00009656212932895869,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "Cube.032",
+      "translation": [
+        0,
+        0.00009656212932895869,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.029",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cube.051",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 1,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5123,
+      "count": 190080,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 48840,
+      "max": [
+        0.31795895187589374,
+        2.261454005404014,
+        0.38524743518331295
+      ],
+      "min": [
+        -0.31653654179075014,
+        1.8581820766021941,
+        -0.38012954196431886
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 48840,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 48840,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5123,
+      "count": 87264,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 22422,
+      "max": [
+        0.2985313695924291,
+        2.0563513614169664,
+        0.3582120129956964
+      ],
+      "min": [
+        -0.3002605030431512,
+        1.8800746312246557,
+        -0.3363916466130975
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 22422,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 22422,
+      "type": "VEC2"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 222425
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 222432,
+      "byteLength": 104349
+    }
+  ],
+  "buffers": [
+    {
+      "name": "InsideStitching",
+      "byteLength": 326784,
+      "uri": "InsideStitching.bin"
+    }
+  ],
+  "materials": [
+    {
+      "name": "default",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "name": "default",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

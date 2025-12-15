@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.8.19",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Cube.031",
+      "translation": [
+        0,
+        0.00009656212932895869,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.031",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5123,
+      "count": 132192,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 33966,
+      "max": [
+        0.4507685178494193,
+        2.0496112661666563,
+        0.3967432119307551
+      ],
+      "min": [
+        -0.45076851784941935,
+        1.7088988548541328,
+        -0.44249220430609965
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 33966,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 33966,
+      "type": "VEC2"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 154011
+    }
+  ],
+  "buffers": [
+    {
+      "name": "Stitching",
+      "byteLength": 154016,
+      "uri": "Stitching.bin"
+    }
+  ],
+  "materials": [
+    {
+      "name": "default",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}
